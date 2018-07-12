@@ -1,0 +1,9 @@
+---
+tautulli:
+    build: .
+    container_name: 'tautulli'
+    volumes:
+        - './data/datadir:/datadir'
+    ports:
+        - 8181:8181
+    restart: 'always'
