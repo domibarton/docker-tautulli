@@ -19,7 +19,7 @@ RUN chmod 755 /tautulli.sh
 # Install Tautulli and all required dependencies.
 #
 
-RUN export VERSION=v2.1.14 \
+RUN export VERSION=v2.1.25 \
     && apt-get -q update \
     && apt-get install -qy curl ca-certificates python-setuptools build-essential python-dev libssl-dev  \
     && easy_install pip \
